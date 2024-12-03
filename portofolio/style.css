@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+background-color: #efe9e9;
+}
+
+nav {
+background-color: #3b3a3a;
+}
+
+.navbar a {
+color: #fff;
+}
+
+.navbar a:hover {
+color: #fd3c6e;
+}
+
+.section-header {
+font-size: 3rem;
+text-align: center;
+margin-bottom: 3rem;
+color: #333;
+}
+
+.section-text {
+font-size: 1.2rem;
+color: #241c21;
+}
+
+/* Hero Section */
+#home {
+background: linear-gradient(45deg, #fd3c6e, #79feec);
+color: #fff;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+position: relative;
+}
+
+#home h1 {
+font-size: 3.5rem;
+font-weight: 600;
+letter-spacing: 2px;
+margin-bottom: 20px;
+}
+
+#home p {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+.btn-home {
+background-color: #fff;
+color: #3b3a3a;
+font-size: 1.1rem;
+padding: 10px 30px;
+border-radius: 25px;
+transition: 0.3s;
+}
+
+.btn-home:hover {
+background: linear-gradient(45deg, #fd3c6e, #79feec);
+color: #fff;
+}
+
+/* About Section */
+#about {
+padding: 4rem 0;
+background-color: #fbfafa;
+}
+
+#about h2 {
+color: #3a1d1d;
+margin-bottom: 1.5rem;
+}
+
+#about ul li {
+list-style-type: none;
+font-size: 1.2rem;
+color: #412b2b;
+}
+
+.about-card {
+background: linear-gradient(90deg, #8f608d, #6b9b95,rgb(214, 86, 86));
+border-radius: 10px;
+box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+padding: 2rem;
+margin-top: 2rem;
+}
+
+/* Projects Section */
+#projects {
+padding: 4rem 0;
+background-color: #f4f4f9;
+}
+
+.project-card {
+background-color: #fff;
+border-radius: 10px;
+padding: 2rem;
+margin-top: 2rem;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.project-card:hover {
+background-color: #fd3c6e;
+color: #fff;
+}
+
+.btn-project {
+background-color: #fff;
+color: #d04369;
+font-size: 1.1rem;
+padding: 10px 20px;
+border-radius: 25px;
+margin-top: 15px;
+transition: 0.3s;
+}
+
+.btn-project:hover {
+background-color: #fff;
+color: #3b3a3a;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+#contact {
+padding: 4rem 0;
+background-color: #595757;
+color: #794747;
+text-align: center;
+}
+
+#contact a {
+color: #fd3c6e;
+text-decoration: none;
+}
+
+#contact a:hover {
+color: #fff;
+}
+
+.footer {
+text-align: center;
+padding: 2rem;
+background-color: #222;
+color: #fff;
+font-size: 1.1rem;
+}
+.i{
+    color:#241c21
+}
